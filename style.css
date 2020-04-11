@@ -1,0 +1,90 @@
+body {
+  background: #250f40;
+}
+
+.box {
+  position: relative;
+  display: block;
+  height: 400px;
+  width: 600px;
+  margin: auto;
+  margin-top: 10%;
+  border: 3px solid white;
+}
+
+.large-bottom-triangle {
+  position: absolute;
+  width: 50%;
+  height: 55%;
+  background: #ea6c00;
+  left: 25%;
+  bottom: 5%;
+  -webkit-clip-path: polygon(100% 0, 0 0, 50% 100%);
+          clip-path: polygon(100% 0, 0 0, 50% 100%);
+}
+
+.medium-bottom-triangle {
+  position: absolute;
+  height: 100%;
+  width: 60%;
+  background: #fdad00;
+  left: 20%;
+  -webkit-clip-path: polygon(100% 0, 0 0, 50% 100%);
+          clip-path: polygon(100% 0, 0 0, 50% 100%);
+}
+
+.large-top-triangle {
+  position: absolute;
+  height: 30%;
+  width: 30%;
+  background: #feeeb7;
+  left: 35%;
+  top: 10%;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+          clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.right-top-triangle-left {
+  position: absolute;
+  height: 27%;
+  width: 10.1%;
+  top: 13%;
+  left: 25.1%;
+  -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+          clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+  background: #fdad00;
+}
+
+.right-top-triangle-right {
+  position: absolute;
+  height: 27%;
+  width: 10.1%;
+  top: 13%;
+  right: 25.1%;
+  -webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
+          clip-path: polygon(0 0, 0% 100%, 100% 100%);
+  background: #fdad00;
+}
+
+.medium-top-triangle-left {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  top: 10%;
+  left: 35.1%;
+  background: #fdd231;
+  -webkit-clip-path: polygon(50% 0, 0 10%, 0 100%);
+          clip-path: polygon(50% 0, 0 10%, 0 100%);
+}
+
+.medium-top-triangle-right {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  top: 10%;
+  right: 35.1%;
+  background: #fdd231;
+  -webkit-clip-path: polygon(50% 0, 100% 10%, 100% 100%);
+          clip-path: polygon(50% 0, 100% 10%, 100% 100%);
+}
+/*# sourceMappingURL=style.css.map */
